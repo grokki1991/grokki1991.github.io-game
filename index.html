@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Угадайка</title>
+	<link rel="stylesheet" type="text/css" href=main.css>
+	<link rel="stylesheet" type="text/css" href="media.css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="points"></div>
+		<div class="guess">Угадайка</div>
+		<div class="theme-text">Выберите тему:</div>
+		<div class="picture">
+			<img src="picture.png">
+		</div>
+		<div class="theme-box">
+			<div class="this-theme" data-theme='biology'>Биология</div>
+			<div class="this-theme" data-theme='history'>История</div>
+			<div class="this-theme" data-theme='literature'>Литература</div>
+			<div class="this-theme" data-theme='others'>Разные</div>
+		</div>
+		<div class="lives"></div>
+		<div class="info"></div>
+		<label class="out" for="text"></label>	
+		<div class="form">
+			<input type="text" class="text" placeholder="введите букву" id="text" autocomplete="off">
+			<input type="button" class="text-btn" value="Угадать">
+		</div>
+		<button>Начать игру!</button>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

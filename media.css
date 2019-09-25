@@ -1,0 +1,9 @@
+@media screen and (max-width: 800px) {
+.form {
+	flex-direction: column;
+}
+
+.text {
+	margin: 0 0 10px 0;
+}
+}
